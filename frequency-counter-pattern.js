@@ -47,19 +47,11 @@ function same(arr1, arr2) {
   let frequencyCounter1 = {};
   let frequencyCounter2 = {};
 
-  for (let i = 0; i < arr1.length; i++) {
-    if (frequencyCounter1[arr1[i]]) {
-      frequencyCounter1[arr1[i]]++;
-    } else {
-      frequencyCounter1[arr1[i]] = 1;
-    }
+  for (let key of arr1) {
+    frequencyCounter1[arr1[key]] = (frequencyCounter1[arr1[key]] || 0) + 1;
   }
-  for (let i = 0; i < arr2.length; i++) {
-    if (frequencyCounter2[arr2[i]]) {
-      frequencyCounter2[arr2[i]]++;
-    } else {
-      frequencyCounter2[arr2[i]] = 1;
-    }
+  for (let key of arr2) {
+    frequencyCounter2[arr2[key]] = (frequencyCounter2[arr2[key]] || 0) + 1;
   }
 
   for (let key in frequencyCounter1) {
