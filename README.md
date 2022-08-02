@@ -12,3 +12,5 @@ Best of luck for your FAANG Interviews. 🥳🤩
 2- Anagrams challenge
 
 3- Multiple Pointers
+
+4- Count Unique Values
