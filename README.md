@@ -8,4 +8,7 @@ Let's build our problem solving approach much more FUN!.
 Best of luck for your FAANG Interviews. 🥳🤩
 
 1- Frequency Pattern
+
 2- Anagrams challenge
+
+3- Multiple Pointers
