@@ -14,3 +14,9 @@ Best of luck for your FAANG Interviews. 🥳🤩
 3- Multiple Pointers
 
 4- Count Unique Values
+
+I've implemented some most famous Data Structures.
+
+1- Linked List
+
+2- Doubly Linked List
